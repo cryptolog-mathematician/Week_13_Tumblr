@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #36465d;
+    font: normal 14px/1.4 "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    height: auto;
+    width: 1263.33px;
+    text-align: center;
+    display: grid;
+    grid-template: 90px auto / 100%;    
+}
+.header{
+    height: 90px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #36465d;
+}
+.header-top{
+    height: 54px;
+    border-bottom: 1px solid hsla(0,0%,100%,.13);
+    display: flex;
+    flex-flow: row wrap;
+}
+.header-top-ticon{
+    flex-basis: 60px;
+    height: 54px;
+    margin-right: -3px;
+    margin-top: 11px;
+}
+.header-top-searchbox{
+    flex-basis: 814.583px;
+    height: 54px;
+    text-align: left;
+}
+.search{
+    width: 543px;
+    height: 44px;
+    background: #36465D;
+}
+form.search input[type=text] {
+    font-size: 17px;
+    width: 510px;
+    height: 34px;
+    background: rgba(0, 0, 0, 0.13);    
+    color: hsla(0,0%,100%,.6);
+    padding: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    outline: 0;
+    outline-color: initial;
+    font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+    margin-left: -4px;
+  }
+form.search button {
+    width: 30px;
+    height: 34px;    
+    color: hsla(0,0%,100%,.6);
+    background: rgba(0, 0, 0, 0.13);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    outline: none;
+  }
+.header-top-iconsbox{
+    display: flex;
+    flex-flow: row wrap;
+    height: 54px;
+    align-items: center;    
+    padding-top: 12px;
+    flex-basis: 306.75px;
+}
+.iconsbox-one{
+    padding: 0 16px;
+    height: 32px;
+    flex-basis: 50.99px;
+}
+.iconsbox-two{
+    height: 32px;
+    flex-basis: 53.99px;
+    margin-top: -6px;
+    margin-left: -2px;
+}
+.iconsbox-three{
+    height: 32px;
+    flex-basis: 55px;
+    margin-top: 3px;
+}
+.iconsbox-four{
+    height: 32px;
+    flex-basis: 53px;
+    margin-bottom: 4px;
+}
+.iconsbox-fife{
+    height: 32px;
+    flex-basis: 46.28px;
+    margin-bottom: 2px;
+}
+.iconsbox-six{
+    height: 32px;
+    flex-basis: 47.49px;
+}
+.header-top-editicon{
+    height: 36px;
+    flex-basis: 49px;
+    margin: 10.5px 0 0 16px;
+    padding: 0 2px;
+}
+.header-bottom{
+    height: 36px;
+    border-bottom: 1px solid hsla(0,0%,100%,.13);
+    width: 100%;
+}
+.header-bottom div{
+    height: 35px;
+    width: 810px;
+    padding: 0 10px;
+    line-height: 35px;
+    text-align: left;
+}
+.header-bottom div a{
+    height: 34.67px;
+    padding: 10px 9px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.6);
+    line-height: 1.07em;
+}
+.header-bottom div a.active{
+    color: #fff;
+    font-weight: 700;
+}
+.box{    
+    padding: 20px 20px 50px 20px;
+}
+.main{
+    width: 940px;
+    height: auto;
+    margin: 10px 141.667px;
+    display: grid;
+    grid-template: auto / auto auto auto; 
+}
+.main-left{
+    width: 300px;
+    height: 480px;
+}
+.main-left-one{
+    height: auto;
+    width: 300px;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.main-left-header{
+    height: 60px;
+    width: 300px;
+    padding: 15px;
+}
+.main-left-photo{
+    height: auto;
+    width: 300px;
+}
+.main-left-description{
+    height: auto;
+    width: 300px;
+    padding: 0 15px;
+    text-align: start;
+}
+.tagsharp{
+    height: 19.33px;
+    width: 300px;
+    text-align: left;
+    margin-top: 15px;
+}
+.tagsharp-first{
+    margin: 0 11px 0 16px;
+    height: 18px;
+}
+.tagsharp-others{
+    margin: 0 11px 0 0;
+    height: 18px;
+}
+.tagsharp a{
+    text-decoration: none;
+    color: initial;
+}
+.main-left-footer{
+    height: 45.33px;
+    width: 300px;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.main-left-footer-first{
+    flex-basis: 138.67px;
+    height: 45.33;
+    text-align: start;
+    margin-left: 16px;
+}
+.main-left-footer-first a{
+    text-decoration: none;
+    color: initial;
+}
+.main-left-footer-last{
+    flex-basis: 132.45px;
+    height: 45.33;
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    text-align: end
+}
+.footer-icon-first{
+    flex-basis: 24px;
+    height: 24px;
+    margin: 10px 0;
+}
+.footer-icon-others{
+    flex-basis: 24px;
+    height: 24px;
+    margin: 10px 0 10px 12px;
+}
+.main-mid{
+    width: 300px;
+    height: 480px;
+    margin: 0 20px;
+}
+.main-right{
+    width: 300px;
+    height: 480px;
+}
