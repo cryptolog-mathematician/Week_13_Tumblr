@@ -150,14 +150,18 @@ form.search button {
     height: auto;
     margin: 10px 141.667px;
     display: grid;
-    grid-template: auto / auto auto auto; 
+    grid-template: auto / 620px 320px; 
 }
 .main-left{
-    width: 300px;
+    width: 620px;
     height: 480px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;
 }
 .main-left-one{
-    height: auto;
+    height: min-content;
     width: 300px;
     background: #fff;
     border-radius: 3px;
@@ -167,6 +171,19 @@ form.search button {
     height: 60px;
     width: 300px;
     padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-left-header-mid a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+    font-weight: 700;
+}
+.main-left-header .li-order-last a{
+    text-decoration: none;
+    margin-left: 10px;
 }
 .main-left-photo{
     height: auto;
@@ -232,14 +249,10 @@ form.search button {
     height: 24px;
     margin: 10px 0 10px 12px;
 }
-.main-mid{
-    width: 300px;
-    height: 480px;
-    margin: 0 20px;
-}
 .main-right{
-    width: 300px;
+    width: 320px;
     height: 480px;
+    margin-left: 20px;
 }
 .main-right-top{    
     width: 300px;
